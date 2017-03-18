@@ -1,0 +1,17 @@
+Process Scheduler Simulator for CS 143B
+- Alonzo Castanon
+
+When run, program expects one line of input representing all the processes to simulate.
+For each process, give the time it should arrive (eg, if you want it to start off
+in the process queue, this number should be 0), and give the number of time units
+required for the process to finish.
+
+An example of 3 processes, two arriving at time 0 and one arriving at time 3:
+0 4 0 2 3 1
+The first process requires 4 time units to complete, the second requires 2, and the third, 1.
+
+Output will show results of using:
+- First-in-First-out
+- Shortest Job First (non preemptive)
+- Shortest Remaining Job First (preemptive)
+- Multilevel Feedback Queue (preemptive)
